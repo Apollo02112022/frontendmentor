@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-select-your-plan',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./select-your-plan.component.css']
 })
 export class SelectYourPlanComponent {
+  selected : boolean = false;
+  deselected : boolean = false;
 
+
+  oppose(){
+    this.selected = !this.selected;
+    this.deselected = !this.deselected;
+  }
 }
+

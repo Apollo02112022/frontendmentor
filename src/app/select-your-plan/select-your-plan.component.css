@@ -1,17 +1,16 @@
 .bigbox {
     position: absolute;
-    top: 43%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
+    transform: translate(-50%, -54%);
+    height: 450px;
     min-width: 300px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 15px;
     box-sizing: border-box;
 }
 
@@ -118,4 +117,10 @@ label:after {
     transform: translateX(20px);
 } 
 
+.greyColor {
+    color: hsl(231, 11%, 63%);
+}
 
+.blueColor {
+    color: hsl(213, 96%, 18%);
+}

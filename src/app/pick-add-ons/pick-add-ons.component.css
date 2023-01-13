@@ -1,9 +1,9 @@
-.box {
+.bigbox {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -69%);
-    height: 350px;
+    transform: translate(-50%, -65%);
+    height: 375px;
     min-width: 300px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
@@ -24,21 +24,33 @@ p {
     font-size: 0.8rem;
 } 
 
-.form {
+.box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-} 
-
-label {
-    color: hsl(213, 96%, 18%);
-    font-size: 0.7rem;
+    gap: 10px;
 }
 
-input {
-    height: 30px;
-    width: 260px;
+.littlebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
     border: 1px solid hsl(231, 11%, 63%);
     border-radius: 5px;
     padding-left: 10px;
+    padding-right: 10px;
+}
+
+.littlebox h2 {
+    color: hsl(213, 96%, 18%);
+    font-size: 0.8rem;
+} 
+
+.littlebox p {
+    color: hsl(231, 11%, 63%);
+    font-size: 0.7rem;
+}
+
+span {
+    color: hsl(243, 100%, 62%);
 }

@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SelectYourPlanComponent } from './select-your-plan/select-your-plan.component';
+import { PickAddOnsComponent } from './pick-add-ons/pick-add-ons.component';
+import { FinishingUpComponent } from './finishing-up/finishing-up.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SelectYourPlanComponent } from './select-your-plan/select-your-plan.com
     HeaderComponent,
     FooterComponent,
     PersonalInfoComponent,
-    SelectYourPlanComponent
+    SelectYourPlanComponent,
+    PickAddOnsComponent,
+    FinishingUpComponent,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
