@@ -6,27 +6,33 @@
             <div class="img1"></div>
             <div>
                 <h2>Arcade</h2>
-                <p>$9/mo</p>
+                <p [ngClass]="{'disapear': write}">$9/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">$90/yr<br></p>
+                <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>
         <div class="littlebox">
             <div class="img2"></div>
             <div>
                 <h2>Advanced</h2>
-                <p>$12/mo</p>
+                <p [ngClass]="{'disapear': write}">$12/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">$120/yr<br></p>
+                <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>
         <div class="littlebox">
             <div class="img3"></div>
             <div>
                 <h2>Pro</h2>
-                <p>$15/mo</p>
+                <p [ngClass]="{'disapear': write}">$15/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">$150/yr<br></p>
+                <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>
         <div class="monthyear">
             <p class="month" [ngClass]="{'greyColor':selected}">Monthly</p>
             <input type="checkbox" id="toggle" class="checkbox">
-            <label for="toggle" (click)="oppose()"></label>
+            <label for="toggle" (click)="oppose()" (click)="contents()"></label>
             <p class="year" [ngClass]="{'blueColor':selected}">Yearly</p>
         </div>
     </div>

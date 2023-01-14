@@ -65,6 +65,7 @@ p {
 .littlebox h2 {
     color: hsl(213, 96%, 18%);
     font-size: 0.8rem;
+    margin-bottom: 0;
 } 
 
 .littlebox p {
@@ -124,3 +125,20 @@ label:after {
 .blueColor {
     color: hsl(213, 96%, 18%);
 }
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: initial;
+} 
+
+.disapear {
+    display: none;
+}
+
+span {
+    color: hsl(213, 96%, 18%);
+}
+

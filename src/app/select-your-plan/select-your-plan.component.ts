@@ -7,12 +7,15 @@ import { Component} from '@angular/core';
 })
 export class SelectYourPlanComponent {
   selected : boolean = false;
-  deselected : boolean = false;
-
+  write : boolean = false;
 
   oppose(){
     this.selected = !this.selected;
-    this.deselected = !this.deselected;
   }
+
+  contents() {
+    this.write =!this.write;
+  }
+
 }
 

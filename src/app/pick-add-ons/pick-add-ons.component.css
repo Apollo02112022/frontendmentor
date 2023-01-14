@@ -54,3 +54,8 @@ p {
 span {
     color: hsl(243, 100%, 62%);
 }
+
+.change {
+    background-color: hsl(228, 100%, 84%);
+    border-color: hsl(243, 100%, 62%);
+}

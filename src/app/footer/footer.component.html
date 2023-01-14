@@ -1,4 +1,5 @@
 <footer>
-    <button class="hidden">Go Back</button>
-    <button class="visible" [routerLink]="['/step2']">Next Step</button>
+    <button class="hidden" [routerLink]="['/step1']" [ngStyle]="{display:clicked ? 'initial' : 'none'}">Go Back</button>
+    <button class="visible" [routerLink]="['/step2']" (click)="next()">Next Step</button>
 </footer>
+
