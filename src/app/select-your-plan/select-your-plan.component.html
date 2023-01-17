@@ -6,8 +6,8 @@
             <div class="img1"></div>
             <div>
                 <h2>Arcade</h2>
-                <p [ngClass]="{'disapear': write}">$9/mo</p>
-                <p class=invisible [ngClass]="{'visible': write}">$90/yr<br></p>
+                <p [ngClass]="{'disapear': write}">${{arcadeMonth}}/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">${{arcadeYear}}/yr<br></p>
                 <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>
@@ -15,8 +15,8 @@
             <div class="img2"></div>
             <div>
                 <h2>Advanced</h2>
-                <p [ngClass]="{'disapear': write}">$12/mo</p>
-                <p class=invisible [ngClass]="{'visible': write}">$120/yr<br></p>
+                <p [ngClass]="{'disapear': write}">${{advancedMonth}}/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">${{advancedYear}}/yr<br></p>
                 <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>
@@ -24,8 +24,8 @@
             <div class="img3"></div>
             <div>
                 <h2>Pro</h2>
-                <p [ngClass]="{'disapear': write}">$15/mo</p>
-                <p class=invisible [ngClass]="{'visible': write}">$150/yr<br></p>
+                <p [ngClass]="{'disapear': write}">${{proMonth}}/mo</p>
+                <p class=invisible [ngClass]="{'visible': write}">${{proYear}}/yr<br></p>
                 <p class=invisible [ngClass]="{'visible': write}"><span>2 months free</span></p>
             </div>
         </div>

@@ -25,3 +25,9 @@ header {
     padding-top: 3px;
     box-sizing: border-box;
 } 
+
+.full {
+    color: hsl(213, 96%, 18%);
+    background-color: hsl(228, 100%, 84%);
+    border-color: hsl(228, 100%, 84%);
+}

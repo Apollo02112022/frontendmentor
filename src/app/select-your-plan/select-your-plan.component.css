@@ -73,6 +73,11 @@ p {
     font-size: 0.7rem;
 }
 
+.littlebox:hover {
+    background-color: hsl(228, 100%, 84%);
+    border-color: hsl(243, 100%, 62%);
+}
+
 .monthyear {
     height: 30px;
     width: 250px;
@@ -142,3 +147,7 @@ span {
     color: hsl(213, 96%, 18%);
 }
 
+.change {
+    background-color: hsl(228, 100%, 84%);
+    border-color: hsl(243, 100%, 62%);
+}
