@@ -23,3 +23,13 @@ p {
     color: hsl(231, 11%, 63%);
     font-size: 0.8rem;
 } 
+
+.box h2 {
+    color: hsl(213, 96%, 18%);
+    font-size: 0.8rem;
+} 
+
+.box p {
+    color: hsl(231, 11%, 63%);
+    font-size: 0.7rem;
+} 

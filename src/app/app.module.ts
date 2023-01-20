@@ -10,6 +10,7 @@ import { SelectYourPlanComponent } from './select-your-plan/select-your-plan.com
 import { PickAddOnsComponent } from './pick-add-ons/pick-add-ons.component';
 import { FinishingUpComponent } from './finishing-up/finishing-up.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { NavigationService } from './navigation.service';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,13 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     SelectYourPlanComponent,
     PickAddOnsComponent,
     FinishingUpComponent,
-    ThankYouComponent
+    ThankYouComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: [],
+  providers: [ NavigationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

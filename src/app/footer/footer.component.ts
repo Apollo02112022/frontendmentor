@@ -7,8 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  
-  constructor(private router: Router) {}
+
+  constructor(private router: Router) {};
+
+  change: boolean = false; 
 
   onNext() {
     if(this.router.url === '/' || this.router.url ==='/step1') {
@@ -19,12 +21,14 @@ export class FooterComponent {
     }
     else if(this.router.url === '/step3') {
       this.router.navigate(['/step4']);
+      this.change = true;
     }
   }
 
   onGoBack() {
     if(this.router.url === '/step4') {
       this.router.navigate(['/step3']);
+      this.change = false;
     }
     else if(this.router.url === '/step3') {
     this.router.navigate(['/step2']);
@@ -44,5 +48,4 @@ export class FooterComponent {
       this.here = true;
     }
   }
-
 }

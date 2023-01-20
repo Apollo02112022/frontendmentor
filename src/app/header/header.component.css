@@ -26,7 +26,7 @@ header {
     box-sizing: border-box;
 } 
 
-.full {
+.empty {
     color: hsl(213, 96%, 18%);
     background-color: hsl(228, 100%, 84%);
     border-color: hsl(228, 100%, 84%);

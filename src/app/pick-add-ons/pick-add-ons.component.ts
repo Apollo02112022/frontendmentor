@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class PickAddOnsComponent {
 
-  onlineMonth : number = 1
-  largerMonth : number = 2;
-  customizableMonth : number = 2;
+  onlineMonthNumber : number = 1
+  largerMonthNumber : number = 2;
+  customizableMonthNumber : number = 2; 
+
+  perMonth : string = "/mo";
+ 
 
   selected1 : boolean = false; 
 

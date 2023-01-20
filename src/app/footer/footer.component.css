@@ -34,6 +34,17 @@ footer {
     grid-row: 1;
     margin-top: 15px;
     margin-left: 15px;
+} 
+
+.newbtn {
+    height: 40px;
+    width: 80px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hsl(243, 100%, 62%);
+    border-radius: 5px;
+    grid-column: 3/4;
+    grid-row: 1;
+    margin-top: 15px;
+    margin-right: 15px;
 }
-
-
